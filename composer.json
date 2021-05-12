@@ -12,7 +12,8 @@
       "Sammy\\Packs\\": "Sammy/"
     },
     "classmap": [
-      "core/"
+      "core/",
+      "Sammy/"
     ]
   },
   "keywords": [
