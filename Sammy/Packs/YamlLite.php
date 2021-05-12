@@ -58,6 +58,6 @@ namespace Sammy\Packs {
    * -
    * \Samils\dir_boot ('./exts');
    */
-  class YamlLite {
+  class YamlLite extends YamlLite\Base {
   }}
 }
