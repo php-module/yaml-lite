@@ -1,6 +1,6 @@
 {
   "name": "php_modules/yaml-lite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A pretty way for parsing yaml datas.",
   "type": "library",
   "minimum-stability": "dev",
@@ -47,6 +47,8 @@
     "wiki": "https://github.com/php-module/yaml-lite/wiki"
   },
   "require": {
+    "php": ">=5.3.20",
+    "php_modules/core": "^1.0",
     "php_modules/include-all": "^1.0"
   }
 }
