@@ -1,6 +1,6 @@
 {
   "name": "php_modules/yaml-lite",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A pretty way for parsing yaml datas.",
   "type": "library",
   "minimum-stability": "dev",
@@ -28,7 +28,9 @@
     "yaml-file-loader",
     "parse-yaml-file",
     "read-yaml-data",
-    "pretty-yaml-parser"
+    "pretty-yaml-parser",
+    "lite-yaml-parser",
+    "yaml-lite-parser"
   ],
   "homepage": "https://github.com/php-modules/yaml-lite",
   "readme": "./README.md",
@@ -48,7 +50,7 @@
   },
   "require": {
     "php": ">=5.3.20",
-    "php_modules/core": "dev-main",
-    "php_modules/include-all": "dev-main"
+    "php_modules/core": "^1.0.2",
+    "php_modules/include-all": "^1.0.5"
   }
 }
