@@ -28,9 +28,7 @@
     "yaml-file-loader",
     "parse-yaml-file",
     "read-yaml-data",
-    "pretty-yaml-parser",
-    "lite-yaml-parser",
-    "yaml-lite-parser"
+    "pretty-yaml-parser"
   ],
   "homepage": "https://github.com/php-modules/yaml-lite",
   "readme": "./README.md",
