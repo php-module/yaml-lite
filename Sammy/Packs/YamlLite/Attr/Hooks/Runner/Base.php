@@ -104,7 +104,7 @@ namespace Sammy\Packs\YamlLite\Attr\Hooks\Runner {
       );
     }
 
-    public final function hook () {
+    public function hook () {
       return call_user_func_array (
         [ static::class, 'addHook' ],
         func_get_args ()
@@ -133,7 +133,7 @@ namespace Sammy\Packs\YamlLite\Attr\Hooks\Runner {
 
 
 
-    protected static final function handleHook ($hookHandlersList, $hookHandlersArguments) {
+    protected static function handleHook ($hookHandlersList, $hookHandlersArguments) {
       if (!(is_array ($hookHandlersList) && $hookHandlersList)) {
         return;
       }
@@ -151,7 +151,7 @@ namespace Sammy\Packs\YamlLite\Attr\Hooks\Runner {
       }
     }
 
-    protected static final function filterHandler ($hookHandler) {
+    protected static function filterHandler ($hookHandler) {
       if ($hookHandler instanceof Closure) {
         return $hookHandler;
       } else if ( is_array ($hookHandler) && count ($hookHandler) == 2 ) {
