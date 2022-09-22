@@ -55,7 +55,6 @@ namespace Sammy\Packs\YamlLite\Attr\YAMLStringParser\MultiLineStringReader {
    * an 'exts' directory in the module directory
    * and boot it by using the ils directory boot.
    * -
-   * \Samils\dir_boot ('./exts');
    */
   trait Base {
     /**
