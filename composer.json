@@ -43,6 +43,6 @@
     "wiki": "https://github.com/php-module/yaml-lite/wiki"
   },
   "require": {
-    "php": "^5.6.20"
+    "php": ">=5.6.20"
   }
 }
